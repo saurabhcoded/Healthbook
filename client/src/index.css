@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Bookingform input,.Bookingform select,.Bookingform textarea{
+  border-radius: 0;
+}
+#Hero{
+  width: 100%;
+  background: url(./img/Simple\ Shiny.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Navbar{
+  position: fixed;
+}
+.Hero h1,#BookAppointment .booking .heading{
+  font-size: 3.4rem;
+}
+.services .container .row div{
+  border: 3px solid rgb(149, 208, 231);
+  height: 45vh;
+  --bs-border-opacity: .5;
+  transition: 0.3s;
+}
+.services .container .row div:hover{
+  transform: scale(1.1);
+  background-color: rgb(149, 208, 231) !important;
+}
+.footer{
+  background: url(./img/Cloudy.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#BookAppointment form{
+  max-width: 700px;
+  background: #aecce0;
+}
+#BookAppointment form input,
+#BookAppointment form textarea,
+#BookAppointment form button,
+#BookAppointment form select{
+  border-radius: 0;
+}
+#BookAppointment form input:focus, form textarea:focus,#BookAppointment form select:focus{
+  outline: none;
+  box-shadow: none;
+}
+.table{
+  overflow-x: scroll;
+}
+.row-book{
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+}
